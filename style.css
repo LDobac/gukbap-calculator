@@ -1,0 +1,27 @@
+body {
+    background-color:#FFFFF2
+}
+
+#title {
+    margin-bottom: 80px
+}
+
+button {
+    border: 1px solid #4CAF50;
+    font-size: 48px;
+    background: none;
+    margin:10px
+}
+
+.edit_box {
+    border-radius: 3px;
+    border: 2px solid orange;
+    width: 250px;
+    height: 60px;
+}
+
+#contents {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+}

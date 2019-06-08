@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>국밥 계산기</title>
+</head>
+<body onload="init()">
+    <h1 id="title">Gukbap Calculator</h1>
+    <div>
+        <input type="number" id="origin_won" class="edit_box">
+        <label>Won</label>
+        <br/>
+        <span style="font-size:30px">=</span>
+        <br/>
+        <input type="number" id="gukbap_count" class="edit_box">
+        <label>Gukbap</label>
+        <br/>
+        <button onclick="calculate_gukbap()">Calucalate</button>
+        <br/>
+    </div>
+    <div>
+        <span>1 Gukbap</span>
+        <input type="number" name="gukbap_count" id="" onchange="change_gukbap()">
+        <label>Won</label>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
