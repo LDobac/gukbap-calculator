@@ -10,24 +10,29 @@
     <title>국밥 계산기</title>
 </head>
 <body onload="init()">
-    <h1 id="title">Gukbap Calculator</h1>
-    <div>
-        <input type="number" id="origin_won" class="edit_box">
-        <label>Won</label>
-        <br/>
-        <span style="font-size:30px">=</span>
-        <br/>
-        <input type="number" id="gukbap_count" class="edit_box">
-        <label>Gukbap</label>
-        <br/>
-        <button onclick="calculate_gukbap()">Calucalate</button>
-        <br/>
-    </div>
-    <div>
-        <span>1 Gukbap</span>
-        <input type="number" name="gukbap_count" id="" onchange="change_gukbap()">
-        <label>Won</label>
-    </div>
+    <center>
+        <h1 id="title">Gukbap Calculator</h1>
+        <div>
+            <div style="text-align: center">
+                <input type="number" id="origin_won" class="edit_box">
+                <label style="position: relative; left:20px">Won</label>
+                <br/>
+                <span style="font-size:30px">=</span>
+                <br/>
+                <input style="position: relative; left:11px" type="number" id="gukbap_count" class="edit_box" disabled>
+                <label style="position: relative; left:20px">Gukbap</label>
+            </div>
+            <br/>
+            <button onclick="calculate_gukbap()">얼마?</button>
+            <br/>
+            <h2 id="title_gukbap_price">지금 국밥의 가격은</h2>
+        </div>
+        <div>
+            <span>1 Gukbap = </span>
+            <input type="number" id="gukbap_bench" onchange="change_gukbap()">
+            <label>Won</label>
+        </div>
+    </center>
     
     <script src="script.js"></script>
 </body>
