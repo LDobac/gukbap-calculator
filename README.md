@@ -1,5 +1,7 @@
 # gukbap-calculator
 
+https://ldobac.github.io/gukbap-calculator/
+
 재미로 만든 국밥 계산기 입니다.
 
 Q. 왜 만들었죠?  
