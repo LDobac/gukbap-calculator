@@ -27,6 +27,18 @@ function change_gukbap() {
 }
 
 function calculate_gukbap() {
+    if ("재희" === wonDom.value || "이재희" === wonDom.value)
+    {
+        gukbapDom.value = "inf"
+        return;
+    }
+    else if("현성" === wonDom.value || "고현성" === wonDom.value)
+    {
+        gukbapDom.value = "탐라국 노 예"
+        return;
+    }
+
+
     let str = (wonDom.value / gukbap).toString();
     gukbapDom.value = (str.substr(0,9))
 }
